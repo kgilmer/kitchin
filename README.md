@@ -1,11 +1,8 @@
 # Kitchin - State Machines in Kotlin
 
+It would be nice to be able to define a state machine in it's entirety in a single builder expression, such as:
+
 ```kotlin
-
-val stateMachine = stateMachine {
-}
-
-```
 
 val stateMachine = stateMachine {
     states {
@@ -26,3 +23,4 @@ val stateMachine = stateMachine {
         }
     }
 }
+```
